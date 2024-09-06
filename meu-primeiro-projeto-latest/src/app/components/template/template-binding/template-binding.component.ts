@@ -12,7 +12,8 @@ export class TemplateBindingComponent {
   public age = 32;
   public condition = this.age > 1 ? "Teste" : "Teste2";
   public isDisabled = false;
-
+  public srcValue = 'https://vidafullstack.com.br/wp-content/uploads/2022/09/curso-de-angular.jpg';
+  
   public sum(val1: number, val2:number) {
     return val1 + val2;
   }
